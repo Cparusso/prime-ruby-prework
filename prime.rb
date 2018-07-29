@@ -6,6 +6,6 @@ def prime?(anArg)
       true
     end
 
-    true
+    false
   end
 end
