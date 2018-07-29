@@ -5,7 +5,8 @@ def prime?(anArg)
     if anArg % counter == 0
       true
     end
-
     false
+
+    counter -= 1
   end
 end
