@@ -1,3 +1,3 @@
 def prime?(anArg)
-  anArg.prime()
+  anArg.prime?()
 end
