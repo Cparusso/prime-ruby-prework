@@ -4,9 +4,8 @@ def prime?(anArg)
   until counter == 1
     if anArg % counter != 0
       counter -= 1
+    else 
+      false
     end
-    false
-
-    counter -= 1
   end
 end
